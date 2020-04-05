@@ -2,6 +2,17 @@
 
 Bare minimum for getting started with Koa + TypeScript.
 
+**Getting started**
+
+```bash
+mkdir your-project
+cd your-project
+git init
+git remote add template git@github.com:Turee/node-typescript-koa-starter.git
+git fetch template
+git reset --hard template/master
+```
+
 **Has:**
 
 - Configuration using environment variables.
@@ -12,7 +23,7 @@ Bare minimum for getting started with Koa + TypeScript.
 
 **Usage:**
 
-Start development: `yarn watch` 
+Start development: `yarn start` 
 
 Build for production `yarn build`
 
