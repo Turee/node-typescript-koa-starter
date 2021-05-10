@@ -1,9 +1,9 @@
 import app from "./fixtures/app";
-import agent from "supertest-koa-agent";
+import request from "supertest";
 
 describe("Health tests", () => {
   test("health check returns ok", () =>
-    agent(app)
+    request(app.callback())
       .get("/health-check")
       .expect(200));
 });
