@@ -1,4 +1,4 @@
-import app from "./fixtures/app";
+import app from "../src/app";
 import request from "supertest";
 
 describe("Health tests", () => {
